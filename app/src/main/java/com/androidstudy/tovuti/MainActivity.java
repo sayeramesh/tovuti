@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        try{
+
+
+      
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
@@ -56,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
                         binding.connectionFast.setText(String.format(Locale.getDefault(), getString(R.string.connection_speed), speed));
                     }
                 });
+
+                  }catch(Exception e)
+        {
+            System.Out.println("this is an error block")
+        }
     }
 
     @Override

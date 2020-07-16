@@ -12,11 +12,11 @@ To be able to use the following library, you will need to add the following grad
 ```
 implementation 'com.androidstudy:tovuti:0.0.1'
 ```
-That is the basic set up needed to be able to use the library in your applications!
+That is  basic set up needed to be able to use the library in your applications!
 
 ## Permissions
 
-First, we need to add these permission to our Android Manifest file :
+First, we need to add these permission  permission to our Android Manifest file :
 
 ```
 <uses-permission android:name="android.permission.INTERNET" />
